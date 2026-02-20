@@ -14,19 +14,11 @@
 			remoteGlobalIDString = 9E2F0A6A2F48D65E00E576F6;
 			remoteInfo = "ci-demo";
 		};
-		9E2F0A8C2F48D66000E576F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9E2F0A632F48D65E00E576F6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9E2F0A6A2F48D65E00E576F6;
-			remoteInfo = "ci-demo";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9E2F0A6B2F48D65E00E576F6 /* ci-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ci-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2F0A812F48D66000E576F6 /* ci-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ci-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E2F0A8B2F48D66000E576F6 /* ci-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ci-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -53,11 +45,6 @@
 			path = "ci-demoTests";
 			sourceTree = "<group>";
 		};
-		9E2F0A8E2F48D66000E576F6 /* ci-demoUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ci-demoUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,13 +62,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E2F0A882F48D66000E576F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -90,7 +70,6 @@
 			children = (
 				9E2F0A6D2F48D65E00E576F6 /* ci-demo */,
 				9E2F0A842F48D66000E576F6 /* ci-demoTests */,
-				9E2F0A8E2F48D66000E576F6 /* ci-demoUITests */,
 				9E2F0A6C2F48D65E00E576F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,7 +79,6 @@
 			children = (
 				9E2F0A6B2F48D65E00E576F6 /* ci-demo.app */,
 				9E2F0A812F48D66000E576F6 /* ci-demoTests.xctest */,
-				9E2F0A8B2F48D66000E576F6 /* ci-demoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,29 +131,6 @@
 			productReference = 9E2F0A812F48D66000E576F6 /* ci-demoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9E2F0A8A2F48D66000E576F6 /* ci-demoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9E2F0A9C2F48D66000E576F6 /* Build configuration list for PBXNativeTarget "ci-demoUITests" */;
-			buildPhases = (
-				9E2F0A872F48D66000E576F6 /* Sources */,
-				9E2F0A882F48D66000E576F6 /* Frameworks */,
-				9E2F0A892F48D66000E576F6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9E2F0A8D2F48D66000E576F6 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				9E2F0A8E2F48D66000E576F6 /* ci-demoUITests */,
-			);
-			name = "ci-demoUITests";
-			packageProductDependencies = (
-			);
-			productName = "ci-demoUITests";
-			productReference = 9E2F0A8B2F48D66000E576F6 /* ci-demoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,10 +145,6 @@
 						CreatedOnToolsVersion = 26.2;
 					};
 					9E2F0A802F48D66000E576F6 = {
-						CreatedOnToolsVersion = 26.2;
-						TestTargetID = 9E2F0A6A2F48D65E00E576F6;
-					};
-					9E2F0A8A2F48D66000E576F6 = {
 						CreatedOnToolsVersion = 26.2;
 						TestTargetID = 9E2F0A6A2F48D65E00E576F6;
 					};
@@ -215,7 +166,6 @@
 			targets = (
 				9E2F0A6A2F48D65E00E576F6 /* ci-demo */,
 				9E2F0A802F48D66000E576F6 /* ci-demoTests */,
-				9E2F0A8A2F48D66000E576F6 /* ci-demoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,13 +179,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9E2F0A7F2F48D66000E576F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9E2F0A892F48D66000E576F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,13 +202,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E2F0A872F48D66000E576F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -273,11 +209,6 @@
 			isa = PBXTargetDependency;
 			target = 9E2F0A6A2F48D65E00E576F6 /* ci-demo */;
 			targetProxy = 9E2F0A822F48D66000E576F6 /* PBXContainerItemProxy */;
-		};
-		9E2F0A8D2F48D66000E576F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9E2F0A6A2F48D65E00E576F6 /* ci-demo */;
-			targetProxy = 9E2F0A8C2F48D66000E576F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -505,44 +436,6 @@
 			};
 			name = Release;
 		};
-		9E2F0A9D2F48D66000E576F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pushkardeshmukh.ci-demoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ci-demo";
-			};
-			name = Debug;
-		};
-		9E2F0A9E2F48D66000E576F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pushkardeshmukh.ci-demoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ci-demo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,15 +462,6 @@
 			buildConfigurations = (
 				9E2F0A9A2F48D66000E576F6 /* Debug */,
 				9E2F0A9B2F48D66000E576F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9E2F0A9C2F48D66000E576F6 /* Build configuration list for PBXNativeTarget "ci-demoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9E2F0A9D2F48D66000E576F6 /* Debug */,
-				9E2F0A9E2F48D66000E576F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
