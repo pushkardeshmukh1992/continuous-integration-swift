@@ -28,4 +28,23 @@ final class ci_demoTests: XCTestCase {
                            "Expected \(testCase.a) + \(testCase.b) to equal \(testCase.expected)")
         }
     }
+    
+    func test_multiply_returnsCorrectMultiplication_forVariousInputs() {
+        // Arrange
+        let testCases = [
+            (a: 10, b: 10, expected: 100),
+            (a: -5, b: 5, expected: -25),
+            (a: -3, b: -7, expected: 21),
+            (a: 0, b: 8, expected: 0)
+        ]
+
+        for testCase in testCases {
+            // Act
+            let result = ci_demo.multiply(a: testCase.a, b: testCase.b)
+
+            // Assert
+            XCTAssertEqual(result, testCase.expected,
+                           "Expected \(testCase.a) * \(testCase.b) to equal \(testCase.expected)")
+        }
+    }
 }
