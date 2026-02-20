@@ -13,7 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
 
+func add(a: Int, b: Int) -> Int {
+    return a + b
+}
