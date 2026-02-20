@@ -13,7 +13,7 @@ final class ci_demoTests: XCTestCase {
     func test_add_returnsCorrectSum_forVariousInputs() {
         // Arrange
         let testCases = [
-            (a: 10, b: 10, expected: 20),
+            (a: 10, b: 10, expected: 999),  // intentionally wrong to fail CI
             (a: -5, b: 5, expected: 0),
             (a: -3, b: -7, expected: -10),
             (a: 0, b: 8, expected: 8)
